@@ -25,6 +25,7 @@ class HelloWorldRouteServiceProvider extends RouteServiceProvider
         $router->get('h7x', 'HelloWorld\Controllers\ContentController@sayHello');
         $router->get('h8x', 'HelloWorld\Controllers\ContentController@sayHello');
         $router->get('h9x', 'HelloWorld\Controllers\ContentController@sayHello');
+        $router->get('h10x', 'HelloWorld\Controllers\ContentController@sayHello');
 
 
     }
