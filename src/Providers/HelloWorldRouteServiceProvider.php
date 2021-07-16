@@ -16,21 +16,8 @@ class HelloWorldRouteServiceProvider extends RouteServiceProvider
 	public function map(Router $router)
 	{
 		$router->get('hello', 'HelloWorld\Controllers\ContentController@sayHello');
-        $router->get('helloNEW', 'HelloWorld\Controllers\ContentController@sayHello');
-        $router->get('h-NEW2', 'HelloWorld\Controllers\ContentController@sayHello');
-        $router->get('h3x', 'HelloWorld\Controllers\ContentController@sayHello');
-        $router->get('h4x', 'HelloWorld\Controllers\ContentController@sayHello');
-        $router->get('h5x', 'HelloWorld\Controllers\ContentController@sayHello');
-        $router->get('h6x', 'HelloWorld\Controllers\ContentController@sayHello');
-        $router->get('h7x', 'HelloWorld\Controllers\ContentController@sayHello');
-        $router->get('h8x', 'HelloWorld\Controllers\ContentController@sayHello');
-        $router->get('h9x', 'HelloWorld\Controllers\ContentController@sayHello');
-        $router->get('h10x', 'HelloWorld\Controllers\ContentController@sayHello');
-        $router->get('h11x', 'HelloWorld\Controllers\ContentController@sayHello');
-        $router->get('h12x', 'HelloWorld\Controllers\ContentController@sayHello');
-        $router->get('h13x', 'HelloWorld\Controllers\ContentController@sayHello');
-        $router->get('h14x', 'HelloWorld\Controllers\ContentController@sayHello');
-        $router->get('h15x', 'HelloWorld\Controllers\ContentController@sayHello');
+        $router->get('helloDouble', 'HelloWorld\Controllers\ContentController@sayHello');
+        $router->get('h16', 'HelloWorld\Controllers\ContentController@sayHello');
 
 
     }
